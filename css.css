@@ -1,0 +1,181 @@
+#menu
+{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	background: black;
+	height: 50px;
+	overflow: hidden;
+	font-size: 20px;
+}
+
+a
+{
+    text-decoration: underline;
+    color: black;
+}
+
+#menu a
+{
+	float: left;
+	padding: 3px;
+	height: 45px;
+	width: 80px;
+	text-align: center;
+	color: white;
+	background: grey;
+	line-height: 200%;
+	border-right: black solid 1px;
+	border-top: black solid 3px;
+	border-left: black solid 2px;
+        text-decoration: none;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+}
+
+body
+{
+	background: #f1f1f1;
+}
+
+#menu a.current_item
+{
+	background: #f1f1f1;
+	color: black;
+}
+
+#menu a.current_item:hover
+{
+    background: #f1f1f1;
+}
+
+#menu a:hover
+{
+	background: lightgrey;
+}
+
+font.notice
+{
+	position: relative;
+	color: red;
+	text-align: center;
+	width: 280px;
+	float: left;
+}
+
+.latestgame
+{
+    position: relative;
+    color: black;
+    text-align: center;
+    width: 160px;
+    float: top;
+    left: 0px;
+    top: 50px;
+    border: black solid 2px;
+    font-size: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.latestgrame
+{
+    position: relative;
+    color: black;
+    text-align: center;
+    width: 160px;
+    float: top;
+    left: 0px;
+    top: 50px;
+    border: black solid 2px;
+    font-size: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+#news
+{
+    position: absolute;
+    right: 10px;
+    top: 60.2px;
+    float: left;
+    border: black solid 3px;
+    left: 183px;
+    border-radius: 10px;
+}
+
+#news2
+{
+    position: absolute;
+    right: 10px;
+    top: 60.2px;
+    float: left;
+    border: black solid 3px;
+    left: 183px;
+    border-radius: 10px;
+}
+
+#text
+{
+    float: left;
+    padding-right: 200px;
+    padding-left: 10px;
+}
+
+#news a
+{
+	float: left;
+	height: 60px;
+	width: 100%;
+	color: black;
+	background: lightgrey;
+	border-top: #f1f1f1 solid 2px;
+        border-bottom: #f1f1f1 solid 2px;
+        text-decoration: none;
+        font-size: 20px;
+	border-radius: 5px;
+        text-indent: 2px;
+}
+
+#news font
+{
+	float: left;
+	height: 30px;
+	width: 100%;
+	color: black;
+	background: lightgrey;
+	border-top: #f1f1f1 solid 2px;
+        border-bottom: #f1f1f1 solid 2px;
+        text-decoration: none;
+        font-size: 20px;
+}
+
+#linkImage
+{
+    float: right;
+    width: 100px;
+    height: 60px;
+    padding-right: 20px;
+}
+
+#linkDesc
+{
+    float: bottom;
+    width: 400px;
+    height: 20px;
+    padding-left:10px;
+    padding-bottom:5px;
+    font-size:16px;
+    line-height: 14px;
+}
+
+#tester{display:none;}
+
+xmp
+{
+    color: red;
+    font-style: italic;
+    border: 2px black solid;
+    font-size: 15px;
+}
